@@ -793,8 +793,8 @@
 
                     <div class="form reservation-form bg-black-10">
 
-                        <form action="" class="form-left">
-
+                        <form action="{{ route('storeBooking') }}" method="POST" class="form-left">
+                            @csrf
                             <h2 class="headline-1 text-center">Online Reservation</h2>
 
                             <p class="form-text text-center">
@@ -816,13 +816,13 @@
                                     <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
 
                                     <select name="person" class="input-field">
-                                        <option value="1-person">1 Person</option>
-                                        <option value="2-person">2 Person</option>
-                                        <option value="3-person">3 Person</option>
-                                        <option value="4-person">4 Person</option>
-                                        <option value="5-person">5 Person</option>
-                                        <option value="6-person">6 Person</option>
-                                        <option value="7-person">7 Person</option>
+                                        <option value="1">1 Person</option>
+                                        <option value="2">2 Person</option>
+                                        <option value="3">3 Person</option>
+                                        <option value="4">4 Person</option>
+                                        <option value="5">5 Person</option>
+                                        <option value="6">6 Person</option>
+                                        <option value="7">7 Person</option>
                                     </select>
 
                                     <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
@@ -831,7 +831,7 @@
                                 <div class="icon-wrapper">
                                     <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
 
-                                    <input type="date" name="reservation-date" class="input-field">
+                                    <input type="date" name="reservationDate" class="input-field">
 
                                     <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                                 </div>
@@ -839,22 +839,22 @@
                                 <div class="icon-wrapper">
                                     <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                                    <select name="person" class="input-field">
-                                        <option value="08:00am">08 : 00 am</option>
-                                        <option value="09:00am">09 : 00 am</option>
-                                        <option value="010:00am">10 : 00 am</option>
-                                        <option value="011:00am">11 : 00 am</option>
-                                        <option value="012:00am">12 : 00 am</option>
-                                        <option value="01:00pm">01 : 00 pm</option>
-                                        <option value="02:00pm">02 : 00 pm</option>
-                                        <option value="03:00pm">03 : 00 pm</option>
-                                        <option value="04:00pm">04 : 00 pm</option>
-                                        <option value="05:00pm">05 : 00 pm</option>
-                                        <option value="06:00pm">06 : 00 pm</option>
-                                        <option value="07:00pm">07 : 00 pm</option>
-                                        <option value="08:00pm">08 : 00 pm</option>
-                                        <option value="09:00pm">09 : 00 pm</option>
-                                        <option value="10:00pm">10 : 00 pm</option>
+                                    <select name="time" class="input-field">
+                                        <option value="08:00">08 : 00 am</option>
+                                        <option value="09:00">09 : 00 am</option>
+                                        <option value="010:00">10 : 00 am</option>
+                                        <option value="011:00">11 : 00 am</option>
+                                        <option value="012:00">12 : 00 am</option>
+                                        <option value="01:00">01 : 00 pm</option>
+                                        <option value="02:00">02 : 00 pm</option>
+                                        <option value="03:00">03 : 00 pm</option>
+                                        <option value="04:00">04 : 00 pm</option>
+                                        <option value="05:00">05 : 00 pm</option>
+                                        <option value="06:00">06 : 00 pm</option>
+                                        <option value="07:00">07 : 00 pm</option>
+                                        <option value="08:00">08 : 00 pm</option>
+                                        <option value="09:00">09 : 00 pm</option>
+                                        <option value="10:00">10 : 00 pm</option>
                                     </select>
 
                                     <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
