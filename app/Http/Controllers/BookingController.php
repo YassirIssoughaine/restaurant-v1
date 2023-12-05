@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\Email;
 use Twilio\Rest\Client;
 use Illuminate\Http\Request;
 use App\Models\Client as ClientB;
 use App\Models\Booking;
-
+use Illuminate\Support\Facades\Mail;
 class BookingController extends Controller
 {
     public function store(Request $request)
@@ -22,7 +23,6 @@ class BookingController extends Controller
             $booking->message = $request->message;
             $booking->client_id = $client->id;
             $booking->save();
-            return redirect('/');
         } else {
             $createClient = new ClientB();
             $createClient->name = $request->name;
@@ -35,35 +35,8 @@ class BookingController extends Controller
             $booking->message = $request->message;
             $booking->client_id = $createClient->id;
             $booking->save();
-            return redirect('/');
         }
-
-        // Send WhatsApp message using Twilio
-        $accountSid = 'your-account-sid';
-        $authToken = 'your-auth-token';
-        $twilioPhoneNumber = 'your-twilio-phone-number';
-        $recipientPhoneNumber = 'whatsapp:' . '1234567890'; // Replace with the actual recipient's phone number
-        $message = 'Thank you for your booking!';
-
-        try {
-            $twilio = new Client($accountSid, $authToken);
-
-            $message = $twilio->messages->create(
-                $recipientPhoneNumber,
-                [
-                    'from' => $twilioPhoneNumber,
-                    'body' => $message,
-                ]
-            );
-
-            // Handle success
-
-        } catch (\Exception $e) {
-            // Handle exceptions
-            return response()->json(['error' => $e->getMessage()], 500);
-        }
-
-        // Return a success response or redirect as needed
-        return response()->json(['message' => 'Booking successful! WhatsApp message sent.']);
+        Mail::mailer('smtp')->to('sykweb@gmail.com')->send(new Email($request->person,$request->reservationDate,$request->time,$request->message,$request->name,$request->phone));
+        return redirect('/');
     }
 }
