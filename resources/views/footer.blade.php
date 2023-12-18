@@ -55,15 +55,15 @@ style="background-image: url('./assets/images/footer-bg.jpg')">
         <ul class="footer-list">
 
             <li>
-                <a href="#" class="label-2 footer-link hover-underline">Home</a>
+                <a href="#home" class="label-2 footer-link hover-underline">Home</a>
             </li>
 
             <li>
-                <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+                <a href="#service" class="label-2 footer-link hover-underline">Menus</a>
             </li>
 
             <li>
-                <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+                <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
             </li>
 
             <li>
@@ -71,7 +71,7 @@ style="background-image: url('./assets/images/footer-bg.jpg')">
             </li>
 
             <li>
-                <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+                <a href="#reservation" class="label-2 footer-link hover-underline">Contact</a>
             </li>
 
         </ul>
