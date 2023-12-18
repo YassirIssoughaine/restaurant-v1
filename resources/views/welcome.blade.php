@@ -146,7 +146,10 @@
     <!--
           - custom js link
         -->
-    <script src="{{ asset('js/script.js') }}"></script>
+        <script src="{{ asset('js/script.js') }}"></script>
+        <script src="{{ asset('js/wow/wow.min.js') }}"></script>
+        <script src="{{asset('js/jquery-3.4.1.min.js')}}"></script>
+        <script src="{{asset('js/owl.carousel.min.js')}}"></script>
 
     <!--
           - ionicon link

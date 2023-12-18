@@ -1,4 +1,4 @@
-<section class="section menu" aria-label="menu-label" id="menu">
+{{-- <section class="section menu" aria-label="menu-label" id="menu">
     <div class="container">
 
         <p class="section-subtitle text-center label-2">Special Selection</p>
@@ -31,7 +31,7 @@
                 </li>
             @endforeach
 
-            {{-- <li>
+            <li>
                 <div class="menu-card hover:card">
 
                     <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
@@ -167,7 +167,7 @@
                     </div>
 
                 </div>
-            </li> --}}
+            </li>
 
         </ul>
 
@@ -188,4 +188,4 @@
             alt="shape" class="shape shape-3 move-anim">
 
     </div>
-</section>
+</section> --}}
