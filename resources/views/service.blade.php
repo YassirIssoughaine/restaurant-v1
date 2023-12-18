@@ -1,4 +1,4 @@
-<section class="section      bg-black-10 text-center" aria-label="service">
+<section class="section      bg-black-10 text-center" aria-label="service" id="service">
     <div class="container">
 
         <p class="section-subtitle label-2">Delicious Menu</p>

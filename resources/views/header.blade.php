@@ -1,7 +1,7 @@
 <header class="header" data-header>
     <div class="container">
 
-        <a href="#" class="logo">
+        <a href="#home" class="logo">
             <img src="{{ asset('images/logo.svg') }}" width="160" height="50" alt="Grilli - Home">
         </a>
 
@@ -26,7 +26,7 @@
                 </li>
 
                 <li class="navbar-item">
-                    <a href="#menu" class="navbar-link hover-underline">
+                    <a href="#service" class="navbar-link hover-underline">
                         <div class="separator"></div>
 
                         <span class="span">Menus</span>
@@ -50,7 +50,7 @@
                 </li>
 
                 <li class="navbar-item">
-                    <a href="#" class="navbar-link hover-underline">
+                    <a href="#reservation" class="navbar-link hover-underline">
                         <div class="separator"></div>
 
                         <span class="span">Contact</span>

@@ -20,7 +20,7 @@
                 Come with family & feel the joy of mouthwatering food
             </p>
 
-            <a href="#" class="btn btn-primary slider-reveal">
+            <a href="#service" class="btn btn-primary slider-reveal">
                 <span class="text text-1">View Our Menu</span>
 
                 <span class="text text-2" aria-hidden="true">View Our Menu</span>
@@ -46,7 +46,7 @@
                 Come with family & feel the joy of mouthwatering food
             </p>
 
-            <a href="#" class="btn btn-primary slider-reveal">
+            <a href="#service" class="btn btn-primary slider-reveal">
                 <span class="text text-1">View Our Menu</span>
 
                 <span class="text text-2" aria-hidden="true">View Our Menu</span>
@@ -72,7 +72,7 @@
                 Come with family & feel the joy of mouthwatering food
             </p>
 
-            <a href="#" class="btn btn-primary slider-reveal">
+            <a href="#service" class="btn btn-primary slider-reveal">
                 <span class="text text-1">View Our Menu</span>
 
                 <span class="text text-2" aria-hidden="true">View Our Menu</span>
@@ -90,7 +90,7 @@
         <ion-icon name="chevron-forward"></ion-icon>
     </button>
 
-    <a href="#" class="hero-btn has-after">
+    <a href="#reservation" class="hero-btn has-after">
         <img src="{{ asset('images/hero-icon.png') }}" width="48" height="48"
             alt="booking icon">
 
