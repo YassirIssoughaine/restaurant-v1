@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MealController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +19,6 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'index']);
 
 Route::match(['get', 'post'], '/storeBooking', [BookingController::class, 'store'])->name('storeBooking');
+
+Route::get('/getMealsByCategory/{categoryId}',[MealController::class, 'getMealsByCategory']);
 
