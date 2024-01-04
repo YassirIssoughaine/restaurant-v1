@@ -9,13 +9,13 @@
                     <div class="service-card">
                         <a class="has-before hover:shine">
                             <figure class="card-banner img-holder">
-                                <img src="{{ $category->image ? asset($category->image) : asset('images/menu-1.png') }}" loading="lazy" alt="{{ $category->name }}"
+                                <img src="{{ $category->image ? asset($category->image) : asset('images/category.jpg') }}" loading="lazy" alt="{{ $category->name }}"
                                     class="img-cover">
                             </figure>
                         </a>
                         <div class="card-content">
                             <h3 class="title-4 card-title">
-                                <a class="category-filter btn-text hover-underline label-2" data-category="{{ $category->id }}" style="margin-top: -40px">
+                                <a class=" category-filter btn-text hover-underline label-2" data-category="{{ $category->id }}" style="margin-top: -40px">
                                     {{ $category->name }}
                                 </a>
                             </h3>
@@ -30,7 +30,7 @@
                 <li class="meal-item category-{{ $meal->category_id }}">
                     <div class="menu-card hover:card">
                         <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                            <img src="{{ $meal->image ? asset($meal->image) : asset('images/menu-1.png') }}"
+                            <img src="{{ $meal->image ? asset($meal->image) : asset('images/menu-6.png') }}"
                                 width="100" height="100" loading="lazy" alt="{{ $meal->name }}"
                                 class="img-cover">
                         </figure>

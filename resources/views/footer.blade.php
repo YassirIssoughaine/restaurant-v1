@@ -67,10 +67,6 @@ style="background-image: url('./assets/images/footer-bg.jpg')">
             </li>
 
             <li>
-                <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
-            </li>
-
-            <li>
                 <a href="#reservation" class="label-2 footer-link hover-underline">Contact</a>
             </li>
 

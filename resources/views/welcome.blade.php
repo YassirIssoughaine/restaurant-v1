@@ -112,7 +112,7 @@
               - #EVENT
             -->
 
-            @include('event')
+            {{-- @include('event') --}}
 
         </article>
     </main>
