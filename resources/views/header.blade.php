@@ -2,7 +2,7 @@
     <div class="container">
 
         <a href="#home" class="logo">
-            <img src="{{ asset('images/logo.svg') }}" width="160" height="50" alt="Grilli - Home">
+            <img src="{{ asset('images/logoSavor.png') }}" width="160" height="50" alt="SavorCraft Kitchen - Home">
         </a>
 
         <nav class="navbar" data-navbar>
@@ -12,7 +12,7 @@
             </button>
 
             <a href="#" class="logo">
-                <img src="{{ asset('images/logo.svg') }}" width="160" height="50" alt="Grilli - Home">
+                <img src="{{ asset('images/logoSavor.png') }}" width="120" height="50" alt="SavorCraft Kitchen - Home">
             </a>
 
             <ul class="navbar-list">
@@ -61,7 +61,7 @@
 
                 <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
 
-                <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+                <a href="mailto:booking@savorcraft.com" class="body-4 sidebar-link">booking@savorcraft.com</a>
 
                 <div class="separator"></div>
 

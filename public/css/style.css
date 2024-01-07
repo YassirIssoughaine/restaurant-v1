@@ -20,7 +20,7 @@
    * COLORS
    */
 
-  --gold-crayola: hsl(38, 61%, 73%);
+  --gold-crayola: #6D4722;
   --quick-silver: hsla(0, 0%, 65%, 1);
   --davys-grey: hsla(30, 3%, 34%, 1);
   --smoky-black-1: hsla(40, 12%, 5%, 1);
@@ -176,8 +176,8 @@ html {
 }
 
 body {
-  background-color: var(--eerie-black-1);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(#000000);
   font-family: var(--fontFamily-dm_sans);
   font-size: var(--fontSize-body-4);
   font-weight: var(--weight-regular);
@@ -211,7 +211,7 @@ body.nav-active { overflow: hidden; }
 .title-2,
 .title-3,
 .title-4 {
-  color: var(--white);
+  color: var(--smoky-black-1);
   font-family: var(--fontFamily-forum);
   font-weight: var(--weight-regular);
   line-height: var(--lineHeight-2);
@@ -385,7 +385,7 @@ body.nav-active { overflow: hidden; }
 
 .btn-secondary::before { background-color: var(--smoky-black-1); }
 
-.btn-secondary .text-2 { color: var(--white); }
+.btn-secondary .text-2 { color: var(--smoky-black-1); }
 
 .has-before,
 .has-after {
@@ -614,7 +614,7 @@ body.nav-active { overflow: hidden; }
 
 .header.active {
   padding-block: 20px;
-  background-color: var(--eerie-black-4);
+  background-color: var(--white);
   border-color: var(--black-alpha-15);
 }
 
@@ -639,7 +639,7 @@ body.nav-active { overflow: hidden; }
 .nav-open-btn .line {
   width: 30px;
   height: 2px;
-  background-color: var(--white);
+  background-color: var(--smoky-black-1);
   margin-block: 4px;
   transform-origin: left;
   animation: menuBtn 400ms ease-in-out alternate infinite;
@@ -1226,7 +1226,7 @@ textarea.input-field {
 /*-----------------------------------*\
   #FEATURES
 \*-----------------------------------*/
-
+.features .title-2, .contact-label, .headline-1{color: var(--white) !important;}
 .features .section-title { margin-block-end: 40px; }
 
 .feature-card { padding: 30px 20px 40px; }
@@ -1309,7 +1309,9 @@ textarea.input-field {
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
-
+footer{
+  background-color: var(--black);
+}
 .footer-top { margin-block-end: 70px; }
 
 .footer-brand {
@@ -1468,9 +1470,10 @@ textarea.input-field {
    * REUSED STYLE
    */
 
-  :is(.service, .about) .section-text {
+  :is(.service, .special-dish) .section-text {
     max-width: 420px;
     margin-inline: auto;
+    color: wheat;
   }
 
   .contact-number { --fontSize-body-1: 3rem; }
@@ -1558,7 +1561,9 @@ textarea.input-field {
   /**
    * ABOUT
    */
-
+   .about .section-text{
+    color: var(--black);
+   }
   .about .container { gap: 80px; }
 
   .about-banner > .w-100 { padding-inline-start: 90px; }

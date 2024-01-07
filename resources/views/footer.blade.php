@@ -8,14 +8,14 @@ style="background-image: url('./assets/images/footer-bg.jpg')">
 
             <a href="#" class="logo">
                 <img src="{{ asset('images/logo.svg') }}" width="160" height="50" loading="lazy"
-                    alt="grilli home">
+                    alt="savorcraft kitchen home">
             </a>
 
             <address class="body-4">
                 Restaurant St, Delicious City, London 9578, UK
             </address>
 
-            <a href="mailto:booking@grilli.com" class="body-4 contact-link">booking@grilli.com</a>
+            <a href="mailto:booking@savorcraft.com" class="body-4 contact-link">booking@savorcraft.com</a>
 
             <a href="tel:+88123123456" class="body-4 contact-link">Booking Request : +88-123-123456</a>
 
@@ -101,7 +101,7 @@ style="background-image: url('./assets/images/footer-bg.jpg')">
     <div class="footer-bottom">
 
         <p class="copyright">
-            &copy; 2023 Grilli. All Rights Reserved | Crafted by <a href="https://sykweb.net/" target="_blank"
+            &copy; 2023 SavorCraft Kitchen. All Rights Reserved | Crafted by <a href="https://sykweb.net/" target="_blank"
                 class="link">SYKWEB</a>
         </p>
 

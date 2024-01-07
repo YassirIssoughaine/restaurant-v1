@@ -1,4 +1,4 @@
 <div class="preload" data-preaload>
     <div class="circle"></div>
-    <p class="text">Grilli</p>
+    <p class="text">SavorCraft Kitchen</p>
 </div>

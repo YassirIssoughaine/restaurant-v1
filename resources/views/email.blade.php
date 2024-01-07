@@ -148,7 +148,7 @@
 														<tr>
 															<td class="pad" style="padding-bottom:5px;padding-left:25px;padding-right:25px;padding-top:5px;">
 																<div style="color:#555555;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:22px;line-height:120%;text-align:center;mso-line-height-alt:26.4px;">
-																	<p style="margin: 0; word-break: break-word;"><span>Grilli Restaurant</span></p>
+																	<p style="margin: 0; word-break: break-word;"><span>SavorCraft Kitchen</span></p>
 																</div>
 															</td>
 														</tr>

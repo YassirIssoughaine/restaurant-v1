@@ -5,7 +5,7 @@
         <li class="slider-item active" data-hero-slider-item>
 
             <div class="slider-bg">
-                <img src="{{ asset('images/hero-slider-1.jpg') }}" width="1880" height="950"
+                <img src="{{ asset('images/hero-slider-1.png') }}" width="1880" height="950"
                     alt="" class="img-cover">
             </div>
 
@@ -31,7 +31,7 @@
         <li class="slider-item" data-hero-slider-item>
 
             <div class="slider-bg">
-                <img src="{{ asset('images/hero-slider-2.jpg') }}" width="1880" height="950"
+                <img src="{{ asset('images/hero-slider-2.png') }}" width="1880" height="950"
                     alt="" class="img-cover">
             </div>
 
@@ -57,7 +57,7 @@
         <li class="slider-item" data-hero-slider-item>
 
             <div class="slider-bg">
-                <img src="{{ asset('images/hero-slider-3.jpg') }}" width="1880" height="950"
+                <img src="{{ asset('images/hero-slider-3.png') }}" width="1880" height="950"
                     alt="" class="img-cover">
             </div>
 

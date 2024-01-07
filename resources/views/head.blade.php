@@ -6,8 +6,8 @@
     <!--
       - primary meta tags
     -->
-    <title>Grilli - Amazing & Delicious Food</title>
-    <meta name="title" content="Grilli - Amazing & Delicious Food">
+    <title>SavorCraft Kitchen - Amazing & Delicious Food</title>
+    <meta name="title" content="SavorCraft Kitchen - Amazing & Delicious Food">
     <meta name="description" content="This is a Restaurant html template made by sykweb">
 
     <!--
